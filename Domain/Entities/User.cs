@@ -15,6 +15,10 @@ public sealed class User
     public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
     public DateTimeOffset UpdatedAt { get; set; } = DateTimeOffset.UtcNow;
 
+    public string? FullName { get; set; }
+    public string? ProfileImage { get; set; }
+
+
     // Social relations (follows)
     // - Users this user follows (following)
     public ICollection<Follow> Following { get; set; } = new List<Follow>();
