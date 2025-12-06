@@ -70,6 +70,45 @@ namespace Infrastructure.Migrations
                     b.ToTable("activities", (string)null);
                 });
 
+            modelBuilder.Entity("Domain.Entities.Book", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Authors")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("CoverUrl")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("text");
+
+                    b.Property<string>("Genres")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("PageCount")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("ReleaseYear")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Books");
+                });
+
             modelBuilder.Entity("Domain.Entities.Content", b =>
                 {
                     b.Property<long>("Id")
@@ -82,6 +121,9 @@ namespace Infrastructure.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("timestamp with time zone")
                         .HasDefaultValueSql("now()");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("text");
 
                     b.Property<string>("ExternalId")
                         .IsRequired()
@@ -235,6 +277,10 @@ namespace Infrastructure.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("text");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("text");
@@ -277,6 +323,47 @@ namespace Infrastructure.Migrations
                     b.HasIndex("ContentId");
 
                     b.ToTable("list_items", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Entities.Movie", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("Actors")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Director")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Genres")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Overview")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PosterUrl")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ReleaseYear")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Movies");
                 });
 
             modelBuilder.Entity("Domain.Entities.PasswordResetToken", b =>
@@ -488,8 +575,14 @@ namespace Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("FullName")
+                        .HasColumnType("text");
+
                     b.Property<string>("PasswordHash")
                         .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("ProfileImage")
                         .HasColumnType("text");
 
                     b.Property<DateTimeOffset>("UpdatedAt")
@@ -570,13 +663,13 @@ namespace Infrastructure.Migrations
                     b.HasOne("Domain.Entities.User", "Followed")
                         .WithMany("Followers")
                         .HasForeignKey("FollowedId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.HasOne("Domain.Entities.User", "Follower")
                         .WithMany("Following")
                         .HasForeignKey("FollowerId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Followed");

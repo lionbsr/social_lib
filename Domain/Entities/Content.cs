@@ -19,6 +19,7 @@ public sealed class Content
     public string ExternalSource { get; set; } = null!; // "TMDb", "GoogleBooks", "OpenLibrary", etc.
     public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
     public DateTimeOffset UpdatedAt { get; set; } = DateTimeOffset.UtcNow;
+    public string? Description { get; set; }
 
     // Relations
     public ICollection<ContentGenre> ContentGenres { get; set; } = new List<ContentGenre>();

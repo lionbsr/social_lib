@@ -3,52 +3,84 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\yazlab_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|c:\\users\\user\\desktop\\yazlab_2\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|c:\\users\\user\\desktop\\yazlab_2\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|c:\\users\\user\\desktop\\yazlab_2\\api\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|solutionrelative:api\\controllers\\userscontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\yazlab_2\\infrastructure\\services\\bookimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\bookimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\yazlab_2\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Migrations\\20251205165706_MakeBookDescriptionNullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20251205165706_MakeBookDescriptionNullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|c:\\users\\user\\desktop\\yazlab_2\\application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{753AADA2-D6EE-426E-98CA-CB20EEB9DB21}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\yazlab_2\\domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753AADA2-D6EE-426E-98CA-CB20EEB9DB21}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{753AADA2-D6EE-426E-98CA-CB20EEB9DB21}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\yazlab_2\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{753AADA2-D6EE-426E-98CA-CB20EEB9DB21}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Migrations\\20251205164828_AddBookFields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20251205164828_AddBookFields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\yazlab_2\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|c:\\users\\user\\desktop\\yazlab_2\\api\\controllers\\bookimportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|solutionrelative:api\\controllers\\bookimportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|c:\\users\\user\\desktop\\yazlab_2\\application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|c:\\users\\user\\desktop\\yazlab_2\\application\\interfaces\\ibookimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ibookimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\yazlab_2\\infrastructure\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\auth\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|c:\\users\\user\\desktop\\yazlab_2\\application\\dtos\\googlebookdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|solutionrelative:application\\dtos\\googlebookdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|c:\\users\\user\\desktop\\yazlab_2\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|c:\\users\\user\\desktop\\yazlab_2\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|c:\\users\\user\\desktop\\yazlab_2\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|solutionrelative:api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|c:\\users\\user\\desktop\\yazlab_2\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|c:\\users\\user\\desktop\\yazlab_2\\api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|solutionrelative:api\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\yazlab_2\\infrastructure\\services\\movieimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\services\\movieimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|c:\\users\\user\\desktop\\yazlab_2\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|c:\\users\\user\\desktop\\yazlab_2\\api\\controllers\\movieimportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|solutionrelative:api\\controllers\\movieimportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|c:\\users\\user\\desktop\\yazlab_2\\application\\interfaces\\imovieimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|solutionrelative:application\\interfaces\\imovieimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\yazlab_2\\infrastructure\\migrations\\20251205160036_movietables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20251205160036_movietables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|c:\\users\\user\\desktop\\yazlab_2\\application\\dtos\\tmdbdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|solutionrelative:application\\dtos\\tmdbdtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\yazlab_2\\infrastructure\\persistence\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|c:\\users\\user\\desktop\\yazlab_2\\infrastructure\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B399F59D-A025-4690-8C98-3C406ECD16DF}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|c:\\users\\user\\desktop\\yazlab_2\\application\\interfaces\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0826F41-EA14-4118-897B-3029C80BA992}|Application\\Application.csproj|solutionrelative:application\\interfaces\\imovierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{753AADA2-D6EE-426E-98CA-CB20EEB9DB21}|Domain\\Domain.csproj|c:\\users\\user\\desktop\\yazlab_2\\domain\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{753AADA2-D6EE-426E-98CA-CB20EEB9DB21}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|c:\\users\\user\\desktop\\yazlab_2\\api\\controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1108A1E3-B635-4C04-9A12-E942F442E09E}|Api\\Api.csproj|solutionrelative:api\\controllers\\activitycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,167 +90,252 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Api\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Api\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-28T11:08:38.994Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA2wCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T06:42:16.46Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T05:44:30.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Interfaces\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Interfaces\\IUserRepository.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T05:41:47.796Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsersControllers.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Controllers\\UsersControllers.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\UsersControllers.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Controllers\\UsersControllers.cs",
-              "RelativeToolTip": "Api\\Controllers\\UsersControllers.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAwGgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T06:39:44.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Infrastructure",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Infrastructure.csproj",
-              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Infrastructure.csproj",
-              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "Title": "20251205165706_MakeBookDescriptionNullable.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Migrations\\20251205165706_MakeBookDescriptionNullable.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20251205165706_MakeBookDescriptionNullable.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Migrations\\20251205165706_MakeBookDescriptionNullable.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20251205165706_MakeBookDescriptionNullable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-28T05:43:08.124Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Interfaces\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Interfaces\\IAuthService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T05:40:57.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Auth\\AuthService.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Auth\\AuthService.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Auth\\AuthService.cs",
-              "RelativeToolTip": "Infrastructure\\Auth\\AuthService.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAiwFUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T05:47:17.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Api",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Api.csproj",
-              "RelativeDocumentMoniker": "Api\\Api.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Api.csproj",
-              "RelativeToolTip": "Api\\Api.csproj",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-28T05:47:43.158Z",
+              "WhenOpened": "2025-12-05T16:57:07.171Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Api\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAAwCYAAAAAAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\appsettings.json",
+              "RelativeToolTip": "Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-05T16:32:36.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20251205160036_MovieTables.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Migrations\\20251205160036_MovieTables.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20251205160036_MovieTables.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Migrations\\20251205160036_MovieTables.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20251205160036_MovieTables.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T05:48:16.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T16:00:37.201Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "Api\\Controllers\\TestController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Controllers\\TestController.cs",
-              "RelativeToolTip": "Api\\Controllers\\TestController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Title": "MovieImportService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Services\\MovieImportService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\MovieImportService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Services\\MovieImportService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\MovieImportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-27T14:52:57.78Z",
+              "WhenOpened": "2025-12-05T15:54:54.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TmdbDtos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Dtos\\TmdbDtos.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\TmdbDtos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Dtos\\TmdbDtos.cs",
+              "RelativeToolTip": "Application\\Dtos\\TmdbDtos.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:38:14.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Persistence\\AppContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\AppContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Persistence\\AppContext.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\AppContext.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAxwMkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:30:43.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "Api\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Program.cs",
+              "RelativeToolTip": "Api\\Program.cs",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAwwJUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:28:16.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Application.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Application.csproj",
-              "RelativeDocumentMoniker": "Application\\Application.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Application.csproj",
-              "RelativeToolTip": "Application\\Application.csproj",
-              "ViewState": "AgIAAAEAAAAAAAAAAABBwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-27T14:31:07.225Z",
+              "DocumentIndex": 1,
+              "Title": "BookImportService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Services\\BookImportService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Services\\BookImportService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Services\\BookImportService.cs",
+              "RelativeToolTip": "Infrastructure\\Services\\BookImportService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAWwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:40:02.671Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Api\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\appsettings.Development.json",
+              "RelativeToolTip": "Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-05T16:32:45.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GoogleBookDtos.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Dtos\\GoogleBookDtos.cs",
+              "RelativeDocumentMoniker": "Application\\Dtos\\GoogleBookDtos.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Dtos\\GoogleBookDtos.cs",
+              "RelativeToolTip": "Application\\Dtos\\GoogleBookDtos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:39:32.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Domain\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Domain\\Entities\\Book.cs",
+              "RelativeToolTip": "Domain\\Entities\\Book.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:25:21.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20251205164828_AddBookFields.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Migrations\\20251205164828_AddBookFields.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20251205164828_AddBookFields.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Migrations\\20251205164828_AddBookFields.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20251205164828_AddBookFields.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:48:29.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBookImportService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Interfaces\\IBookImportService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IBookImportService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Interfaces\\IBookImportService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IBookImportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:40:41.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookImportController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Controllers\\BookImportController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\BookImportController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Controllers\\BookImportController.cs",
+              "RelativeToolTip": "Api\\Controllers\\BookImportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T16:41:12.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MovieImportController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Controllers\\MovieImportController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\MovieImportController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Controllers\\MovieImportController.cs",
+              "RelativeToolTip": "Api\\Controllers\\MovieImportController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:27:58.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IMovieImportService.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Interfaces\\IMovieImportService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IMovieImportService.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Interfaces\\IMovieImportService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IMovieImportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:27:27.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IMovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Interfaces\\IMovieRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IMovieRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Application\\Interfaces\\IMovieRepository.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IMovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:26:29.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Repositories\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\MovieRepository.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Infrastructure\\Repositories\\MovieRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\MovieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:25:46.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Domain\\Entities\\Movie.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Movie.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Domain\\Entities\\Movie.cs",
+              "RelativeToolTip": "Domain\\Entities\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T15:24:56.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ActivityController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Controllers\\ActivityController.cs",
+              "RelativeDocumentMoniker": "Api\\Controllers\\ActivityController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\yazlab_2\\Api\\Controllers\\ActivityController.cs",
+              "RelativeToolTip": "Api\\Controllers\\ActivityController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T14:13:17.666Z"
             }
           ]
         }

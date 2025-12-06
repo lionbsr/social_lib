@@ -63,23 +63,27 @@ namespace Infrastructure.Auth
         private string GenerateJwtToken(User user)
         {
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
-
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var claims = new[]
             {
-                new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
-                new Claim("username", user.Username)
-            };
+        // .NET'in beklediği standart ID clami
+        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+
+        // Ek bilgi: username
+        new Claim("username", user.Username)
+    };
 
             var token = new JwtSecurityToken(
                 issuer: _config["Jwt:Issuer"],
                 audience: _config["Jwt:Audience"],
                 claims: claims,
                 expires: DateTime.UtcNow.AddHours(6),
-                signingCredentials: creds);
+                signingCredentials: creds
+            );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
+
     }
 }

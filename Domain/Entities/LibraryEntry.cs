@@ -1,18 +1,17 @@
-﻿// Domain/Entities/LibraryEntry.cs
-using Domain.Enums;
+﻿using Domain.Enums;
 
-namespace Domain.Entities;
-
-public sealed class LibraryEntry
+namespace Domain.Entities
 {
-    // Composite PK: UserId + ContentId
-    public long UserId { get; set; }
-    public User? User { get; set; }
+    public class LibraryEntry
+    {
+        public long UserId { get; set; }
+        public User? User { get; set; }
 
-    public long ContentId { get; set; }
-    public Content? Content { get; set; }
+        public long ContentId { get; set; }
+        public Content? Content { get; set; }
 
-    public LibraryStatus Status { get; set; }
-    public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
-    public DateTimeOffset UpdatedAt { get; set; } = DateTimeOffset.UtcNow;
+        public LibraryStatus Status { get; set; }  // <-- ENUM !
+        public DateTimeOffset CreatedAt { get; set; } = DateTimeOffset.UtcNow;
+        public DateTimeOffset UpdatedAt { get; set; } = DateTimeOffset.UtcNow;
+    }
 }

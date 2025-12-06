@@ -25,6 +25,11 @@ namespace Infrastructure.Persistence
         public DbSet<Activity> Activities => Set<Activity>();
         public DbSet<RefreshToken> RefreshTokens => Set<RefreshToken>();
         public DbSet<PasswordResetToken> PasswordResetTokens => Set<PasswordResetToken>();
+        public DbSet<Movie> Movies { get; set; }
+        public DbSet<Book> Books { get; set; }
+
+
+        // ❗ Çift Follows DbSet kaldırıldı (sende 2 kere vardı, 1 tanesi bırakıldı)
 
         protected override void OnModelCreating(ModelBuilder b)
         {
@@ -41,13 +46,22 @@ namespace Infrastructure.Persistence
                 e.Property(x => x.UpdatedAt).HasDefaultValueSql("now()");
             });
 
-            // --- follows composite key
+            // --- follows composite key (DÜZELTİLMİŞ)
             b.Entity<Follow>(e =>
             {
                 e.ToTable("follows");
                 e.HasKey(x => new { x.FollowerId, x.FollowedId });
-                e.HasOne(x => x.Follower).WithMany(u => u.Following).HasForeignKey(x => x.FollowerId).OnDelete(DeleteBehavior.Cascade);
-                e.HasOne(x => x.Followed).WithMany(u => u.Followers).HasForeignKey(x => x.FollowedId).OnDelete(DeleteBehavior.Cascade);
+
+                e.HasOne(x => x.Follower)
+                    .WithMany(u => u.Following)
+                    .HasForeignKey(x => x.FollowerId)
+                    .OnDelete(DeleteBehavior.Restrict); // FIX
+
+                e.HasOne(x => x.Followed)
+                    .WithMany(u => u.Followers)
+                    .HasForeignKey(x => x.FollowedId)
+                    .OnDelete(DeleteBehavior.Restrict); // FIX
+
                 e.Property(x => x.CreatedAt).HasDefaultValueSql("now()");
                 e.HasCheckConstraint("chk_follow_self", "follower_id <> followed_id");
             });
@@ -61,7 +75,6 @@ namespace Infrastructure.Persistence
                 e.Property(x => x.CreatedAt).HasDefaultValueSql("now()");
                 e.Property(x => x.UpdatedAt).HasDefaultValueSql("now()");
                 e.HasIndex(x => new { x.Type, x.Year }).HasDatabaseName("ix_contents_type_year");
-                // Full-text index should be added via migration SQL (Gin/tsvector) if desired
             });
 
             // --- genres & content_genres
@@ -158,7 +171,6 @@ namespace Infrastructure.Persistence
                 e.ToTable("activities");
                 e.HasKey(x => x.Id);
                 e.HasOne(x => x.User).WithMany(u => u.Activities).HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
-                // content/review/list FKs nullable and SET NULL on delete
                 e.HasOne(x => x.Content).WithMany().HasForeignKey(x => x.ContentId).OnDelete(DeleteBehavior.SetNull);
                 e.HasOne(x => x.Review).WithMany().HasForeignKey(x => x.ReviewId).OnDelete(DeleteBehavior.SetNull);
                 e.HasOne(x => x.List).WithMany().HasForeignKey(x => x.ListId).OnDelete(DeleteBehavior.SetNull);
@@ -184,8 +196,6 @@ namespace Infrastructure.Persistence
                 e.HasOne(x => x.User).WithMany(u => u.PasswordResetTokens).HasForeignKey(x => x.UserId).OnDelete(DeleteBehavior.Cascade);
                 e.Property(x => x.CreatedAt).HasDefaultValueSql("now()");
             });
-
-            // add any additional indexes (full-text) via raw SQL migration if needed
         }
     }
 }

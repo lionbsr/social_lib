@@ -6,6 +6,7 @@ public sealed class List
     public long Id { get; set; }
     public long UserId { get; set; }
     public User? User { get; set; }
+    public string Name { get; set; } = null!;   // <--- EKLENMESİ GEREKEN
 
     public string Title { get; set; } = null!;
     public string? Description { get; set; }
@@ -13,4 +14,6 @@ public sealed class List
     public DateTimeOffset UpdatedAt { get; set; } = DateTimeOffset.UtcNow;
 
     public ICollection<ListItem> Items { get; set; } = new List<ListItem>();
+
+
 }
